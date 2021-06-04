@@ -3,7 +3,6 @@ ping archlinux.org
 timedatectl set-ntp true
 lsblk
 fdisk -l
-nano /etc/ssh/sshd_conf
 systemctl start sshd.service
 ifconfig
 lsblk
